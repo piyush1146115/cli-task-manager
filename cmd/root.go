@@ -2,16 +2,15 @@ package cmd
 
 import (
 	"fmt"
-	"os"
-
 	"github.com/spf13/cobra"
+	"os"
 )
 
 var rootCmd = &cobra.Command{
 	Use:   "task",
-	Short: "Task is a CLI task manager",
+	Short: "task is a CLI task manager",
+	Long:  `A Fast and Flexible Static CLI task manager built with love`,
 	Run: func(cmd *cobra.Command, args []string) {
-		// Do Stuff Here
 	},
 }
 
